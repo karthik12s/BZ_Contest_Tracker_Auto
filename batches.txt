@@ -1,0 +1,1 @@
+{"BZCMRTC2024P1": "bzcmrtc2024-p1-contest", "BZCMRCET2024P1": "bzcmrcet2024-p1-contest", "BZKLH1923P1": "bzklh1923-p1-contest", "BZKLU1923P2": "bz-klu-y19-p2-contests", "BZTEST1923P1": "bzklh1923-p1-contest"}
