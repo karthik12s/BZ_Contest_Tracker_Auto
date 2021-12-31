@@ -11,12 +11,12 @@ import pandas as pd
 from datetime import datetime,timedelta
 from dateutil import parser
 import time
-# os.environ['TZ'] = 'Asia/Kolkata' # set new timezone
-# time.tzset()
-# time.localtime()
+os.environ['TZ'] = 'Asia/Kolkata' # set new timezone
+time.tzset()
+time.localtime()
 admins = {"bzadmin":"admin@beingzero"}
 # from requests.api import request
-client = MongoClient("mongodb+srv://admin:bzhandles@datastore.rzoau.mongodb.net/myFirstDatabase&retryWrites=true&w=majority",ssl_cert_reqs=ssl.CERT_NONE)
+client = MongoClient("mongodb+srv://admin:bzhandles@datastore.rzoau.mongodb.net/myFirstDatabase&retryWrites=true&w=majority")#,ssl_cert_reqs=ssl.CERT_NONE)
 db = client['Contest']
 col = db['CollegeDetails']
 dictionary = {}
