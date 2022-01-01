@@ -75,7 +75,6 @@ proto-plus==1.13.0
 protobuf==3.14.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-PyAudio @ file:///C:/Users/KARTHIK%20SURINENI/pipwin/PyAudio-0.2.11-cp38-cp38-win_amd64.whl
 pycparser==2.20
 pycryptodome==3.9.9
 pyjsparser==2.7.1
