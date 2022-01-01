@@ -162,7 +162,7 @@
             function updateresults(name){
                 console.log(name);
                 alert("This action takes 2-3 minutes of time. Please be patient");
-                url = "https://bzcontesttrackertest.herokuapp.com/upd/"+name;
+                url = "https://bzcontesttracker.azurewebsites.net/upd/"+name;
                 fetch(url) .then((response) => response.json())
                 .then((responseData) => {
                   console.log(responseData['Success']);
@@ -190,7 +190,7 @@
                   return;
                 }
                 alert("This action takes 2-3 minutes of time. Please be patient");
-                url = "https://bzcontesttrackertest.herokuapp.com/forceupd/"+name;
+                url = "https://bzcontesttracker.azurewebsites.net/forceupd/"+name;
                 fetch(url) .then((response) => response.json())
                 .then((responseData) => {
                   console.log(responseData['Success']);
